@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <table>
+                <h2>Szállítási cím módosítása</h2>
+                <tr>
+                    <td>
+                        <label for="name">Név</label><br>
+                        <input tpye="text" id="name" name="name">
+                    </td>
+                    <td>
+                        <label for="telefon">Telefonszám:*</label><br>
+                        <input type="number" value="36" disabled id="tel"><input type="tel" id="telefon"
+                            placeholder="201234567">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="iranyitoszam">Irányítószám</label><br>
+                        <input type="number" id="iranyitoszam" placeholder="4274">
+                    </td>
+                    <td>
+                        <label for="varos">Város</label><br>
+                        <select name="varos" id="varos">
+                            <option value="Debrecen">Debrecen</option>
+                            <option value="Budapest">Budapest</option>
+                            <option value="Gyor">Győr</option>
+                            <option value="Kaposvar">Kaposvár</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="orszag">Ország</label><br>
+                        <select name="orszag" id="orszag">
+                            <option value="Magyar">Magyarország</option>
+                            <option value="Anglia">Anglia</option>
+                            <option value="Spanyolország">Spanyolország</option>
+                            <option value="Szlovákia">Szlovákia</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="cim">Cím</label><br>
+                        <input type="text" id="cim" placeholder="Minta u. 17">
+                    </td>
+                <tr>
+                    <td>
+                        <input type="submit" id="gomb">
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+fieldset{
+    width: 27%;
+}
+
+#tel {
+width: 35px;
+margin-right: 5px;
+}
+
+#name {
+    margin-right: 10px;
+}
+
+#iranyitoszam {
+    margin-right: 10px;
+}
+
+#orszag {
+    width: 93%;
+    margin-right: 10px;
+}
+
+select {
+    width: 100%;
+}
+
+#cim {
+    width:96%;
+}
+
+#gomb {
+    background-color: green;
+    width: 222%;
+    color: white;
+    border: none;
+    height: 25px;
+    margin-top: 20px;
+}
