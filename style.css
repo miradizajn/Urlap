@@ -36,3 +36,15 @@ select {
     height: 25px;
     margin-top: 20px;
 }
+
+span {
+    color: red;
+}
+
+input {
+    height: 20px;
+}
+
+select {
+    height: 25px;
+}
