@@ -12,23 +12,23 @@
 <body>
     <form>
         <fieldset>
+            <h2>Szállítási cím módosítása</h2>
             <table>
-                <h2>Szállítási cím módosítása</h2>
                 <tr>
                     <td>
                         <label for="name">Név<span>*</span></label><br>
-                        <input tpye="text" id="name" name="name">
+                        <input type="text" id="name" name="name" required>
                     </td>
                     <td>
                         <label for="telefon">Telefonszám:<span>*</span></label><br>
                         <input type="number" value="36" disabled id="tel"><input type="tel" id="telefon"
-                            placeholder="201234567">
+                            placeholder="201234567" required>
                     </td>
                 </tr>
                 <tr>
                     <td>
                         <label for="iranyitoszam">Irányítószám<span>*</span></label><br>
-                        <input type="number" id="iranyitoszam" placeholder="4274">
+                        <input type="number" id="iranyitoszam" placeholder="4274" required>
                     </td>
                     <td>
                         <label for="varos">Város<span>*</span></label><br>
@@ -58,7 +58,6 @@
                     <td>
                         <input type="submit" id="gomb" value="Mentés">
                     </td>
-                </tr>
                 </tr>
             </table>
         </fieldset>
